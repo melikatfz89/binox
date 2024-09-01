@@ -1,0 +1,409 @@
+@media screen and (min-width: 100px) and (max-width: 425px) {
+  h1 {
+    font-size: 0.9rem !important;
+    margin-top: 0.3rem !important;
+    margin-right: 2rem !important;
+  }
+  p {
+    font-size: 0.9rem !important;
+  }
+  h4 {
+    font-size: 0.9rem !important;
+  }
+  div {
+    font-size: 0.9rem !important;
+  }
+  p.text-small-banner {
+    display: none;
+  }
+  .container {
+    height: 22rem;
+  }
+  .image-wrapper img {
+    height: 22rem;
+  }
+  .navMenu {
+    display: none !important;
+  }
+  logo {
+    width: 86px;
+    height: auto;
+  }
+  .black-frame-slider {
+    display: none !important;
+  }
+  .headerBtn {
+    font-size: 10px !important;
+  }
+  .continue-informations img {
+    flex-basis: 100% !important;
+  }
+  .first-div-core {
+    padding: 0 !important;
+  }
+  .total-blue-div {
+    flex-basis: 100% !important;
+  }
+  .core-feature {
+    flex-basis: 100% !important;
+    padding: 1rem !important;
+  }
+  .second-section {
+    flex-direction: column-reverse !important;
+  }
+  .image-scroll {
+    flex-basis: 100% !important;
+  }
+  .btn-about {
+    width: 60% !important;
+  }
+  .x-image {
+    width: 42% !important;
+  }
+  .third-col-blue {
+    width: 100% !important;
+    padding: 3rem !important;
+  }
+  .second-col-blue {
+    width: 100% !important;
+  }
+  .first-col-blue img {
+    margin-top: -2rem !important;
+  }
+  .first-col-blue {
+    padding-right: 4rem !important;
+    width: 100% !important;
+  }
+  .consultant-btn {
+    top: 5.8rem !important;
+    left: 43rem !important;
+    font-size: 0.7rem !important;
+    width: 10rem;
+  }
+  .green-sectionScroll {
+    flex-basis: 100% !important;
+    padding: 3rem !important;
+  }
+  .icon-box {
+    flex-basis: 100% !important;
+  }
+  .second-slider {
+    flex-basis: 100% !important;
+  }
+  .box-text {
+    flex-basis: 100% !important;
+  }
+  .seventh-section {
+    padding: 0 !important;
+  }
+  .box-text-specialization {
+    flex-basis: 100% !important;
+  }
+  .tenth-section .green-time:before {
+    display: none !important;
+  }
+  section.tenth-section {
+    flex-direction: column;
+  }
+  .green-time {
+    width: 100% !important;
+  }
+  .btnCall-footer {
+    width: 100% !important;
+  }
+  .box-blog {
+    flex-basis: 100% !important;
+  }
+}
+@media screen and (min-width: 426px) and (max-width: 767px) {
+  h1 {
+    font-size: 1rem !important;
+    margin-top: 3rem !important;
+    margin-right: 2rem !important;
+  }
+  p {
+    font-size: 0.5rem !important;
+  }
+  h4 {
+    font-size: 0.5rem !important;
+  }
+  div {
+    font-size: 0.5rem !important;
+  }
+  p.text-small-banner {
+    top: 7rem !important;
+    right: 2rem !important;
+  }
+  .navMenu {
+    display: none !important;
+  }
+  logo {
+    width: 86px;
+    height: auto;
+  }
+  .black-frame-slider {
+    display: none !important;
+  }
+  .continue-informations img {
+    flex-basis: 100% !important;
+  }
+  .first-div-core {
+    padding: 0 !important;
+  }
+  .total-blue-div {
+    flex-basis: 100%;
+  }
+  .core-feature {
+    flex-basis: 100% !important;
+  }
+  .second-section {
+    flex-direction: column-reverse !important;
+  }
+  .btn-about {
+    width: 28% !important;
+  }
+  .x-image {
+    width: 37% !important;
+  }
+  .third-col-blue {
+    width: 100% !important;
+    padding: 3rem !important;
+  }
+  .second-col-blue {
+    width: 100% !important;
+  }
+  .first-col-blue img {
+    margin-top: -2rem !important;
+  }
+  .first-col-blue {
+    padding-right: 4rem !important;
+    width: 100% !important;
+  }
+  .second-slider {
+    flex-basis: 100% !important;
+  }
+  .box-text {
+    flex-basis: 100% !important;
+  }
+  .seventh-section {
+    padding: 0 !important;
+  }
+  .box-text-specialization {
+    flex-basis: 100% !important;
+  }
+  .tenth-section .green-time:before {
+    display: none !important;
+  }
+  section.tenth-section {
+    flex-direction: column;
+  }
+  .green-time {
+    width: 100% !important;
+  }
+  .btnCall-footer {
+    width: 100% !important;
+  }
+  .box-blog {
+    flex-basis: 100% !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  h1 {
+    font-size: 2rem !important;
+    margin-top: 1rem !important;
+    margin-right: 4rem !important;
+  }
+  p {
+    font-size: 0.8rem !important;
+  }
+  h4 {
+    font-size: 0.8rem !important;
+  }
+  div {
+    font-size: 0.8rem !important;
+  }
+  p.text-small-banner {
+    top: 16rem !important;
+    right: 22rem !important;
+  }
+  .consultant-btn {
+    top: 5rem !important;
+    left: 19rem !important;
+  }
+  .navMenu {
+    display: none !important;
+  }
+  .total-blue-div {
+    flex-basis: 100% !important;
+  }
+  .core-feature {
+    flex-basis: 100% !important;
+    padding: 5rem !important;
+  }
+  .second-section {
+    flex-direction: column-reverse !important;
+  }
+  .third-section {
+    margin-top: 0 !important;
+  }
+  .btn-about {
+    width: 28% !important;
+  }
+  .x-image {
+    width: 37% !important;
+  }
+  .third-col-blue {
+    padding: 2rem !important;
+  }
+  .second-slider {
+    flex-basis: 100% !important;
+  }
+  .box-text {
+    flex-basis: 100% !important;
+  }
+  .seventh-section {
+    padding: 0 !important;
+  }
+  .box-text-specialization {
+    flex-basis: 100% !important;
+  }
+  .tenth-section .green-time:before {
+    display: none !important;
+  }
+  section.tenth-section {
+    flex-direction: column;
+  }
+  .green-time {
+    width: 100% !important;
+  }
+  .btnCall-footer {
+    width: 100% !important;
+  }
+  .box-blog {
+    flex-basis: 100% !important;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  h1 {
+    font-size: 3rem !important;
+    margin-top: 10rem !important;
+    margin-right: 8rem !important;
+  }
+  p {
+    font-size: 1rem !important;
+  }
+  h4 {
+    font-size: 1rem !important;
+  }
+  p.text-small-banner {
+    top: 24rem !important;
+    right: 40rem !important;
+  }
+  .core-feature {
+    flex-basis: 41% !important;
+  }
+  .second-section {
+    flex-direction: column-reverse !important;
+  }
+  .third-section {
+    margin-top: 7rem !important;
+  }
+  .btn-about {
+    width: 20% !important;
+  }
+  .third-col-blue {
+    padding: 2rem !important;
+  }
+  .consultant-btn {
+    top: 10rem !important;
+    left: 25rem !important;
+  }
+  .tenth-section .green-time:before {
+    display: none !important;
+  }
+  .btnCall-footer {
+    width: 47.9% !important;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 2559px) {
+  h1 {
+    font-size: 4rem !important;
+    margin-top: 12rem !important;
+    margin-right: 9rem !important;
+  }
+  p {
+    font-size: 1rem !important;
+  }
+  h4 {
+    font-size: 2rem !important;
+  }
+  p.text-small-banner {
+    top: 38rem !important;
+    left: 15rem !important;
+  }
+  .headerBtn {
+    width: 170px;
+  }
+  .header {
+    padding: 1rem;
+  }
+  .total-blue-div {
+    flex-basis: 66% !important;
+  }
+  .core-feature {
+    flex-basis: 34% !important;
+    padding: 8rem !important;
+  }
+  .third-col-blue {
+    padding: 4rem !important;
+  }
+  .third-col-blue p {
+    width: 50%;
+  }
+  .consultant-btn {
+    top: 24rem !important;
+    left: 47rem !important;
+  }
+  .box-text-specialization {
+    flex-basis: 26% !important;
+  }
+}
+@media screen and (min-width: 2560px) {
+  h1 {
+    font-size: 4rem !important;
+    margin-top: 12rem !important;
+    margin-right: 9rem !important;
+  }
+  p {
+    font-size: 2rem !important;
+  }
+  h4 {
+    font-size: 2rem !important;
+  }
+  p.text-small-banner {
+    top: 48rem !important;
+    right: 19rem !important;
+  }
+  .header {
+    padding: 1rem;
+  }
+  .headerBtn {
+    width: 170px;
+  }
+  .total-blue-div {
+    flex-basis: 66% !important;
+  }
+  .core-feature {
+    flex-basis: 34% !important;
+  }
+  .third-col-blue {
+    padding: 3rem !important;
+  }
+  .third-col-blue p {
+    width: 50%;
+  }
+  .green-time:before {
+    right: 33.8rem !important;
+    top: 2.4rem !important;
+  }
+}/*# sourceMappingURL=responsive.css.map */
