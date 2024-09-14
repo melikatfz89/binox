@@ -419,6 +419,55 @@ html {
     top: 2.4rem !important;
   }
 }
+.veblog-div-archive {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.veblog-div-archive .title-archive {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+}
+.veblog-div-archive .title-archive h3 {
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+#navItem-blog {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  text-decoration: none;
+  list-style: none;
+  font-weight: 800;
+  justify-content: space-around;
+  padding-bottom: 8px;
+  width: 100%;
+  font-size: 16px;
+  color: #000;
+}
+
+.header-archive {
+  border-bottom: 1px solid rgba(129, 129, 129, 0.521);
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  height: auto;
+  width: 95%;
+  z-index: 999;
+  flex-wrap: wrap;
+  position: absolute;
+  padding: 1rem;
+}
+
 body {
   margin: 0 auto;
   direction: rtl;
@@ -536,6 +585,7 @@ div {
   justify-content: center;
   background-color: white;
   flex-wrap: wrap;
+  border-bottom: 1px solid rgb(128, 128, 128);
 }
 
 .header {
@@ -1021,12 +1071,16 @@ span.swiper-pagination-total {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
   height: auto;
   padding: 7rem 1rem;
+  margin: 3rem 0;
 }
 .nintheen-section .veblog-div {
-  width: 88%;
+  width: 94%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .nintheen-section .veblog-div h3 {
   font-size: 32px;
@@ -1042,11 +1096,13 @@ span.swiper-pagination-total {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-around;
+  width: 95%;
 }
 .box-blogs .box-blog {
   flex-basis: 30%;
   border-left: 1px solid rgba(197, 197, 197, 0.671);
   padding: 2rem;
+  margin-top: 2rem;
 }
 .box-blogs .box-blog div {
   overflow: hidden;

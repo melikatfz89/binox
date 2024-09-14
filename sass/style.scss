@@ -10,6 +10,7 @@ html{
     scroll-behavior: smooth !important;
 }
 @import 'responsive.scss';
+@import 'archive.scss';
 body{
     margin: 0 auto;
     direction: rtl;
@@ -158,6 +159,7 @@ $green-back:#8DCF9B;
     justify-content: center;
     background-color: white;
     flex-wrap: wrap;
+    border-bottom: 1px solid rgb(128, 128, 128);
 }
 
 .header{
@@ -598,11 +600,14 @@ span.swiper-pagination-total {
         @include displaysall();
         flex-direction: row;
         justify-content: center;
-        align-items: center;
+        // align-items: center;
         height: auto;
         padding:7rem 1rem;
+        margin: 3rem 0;
         .veblog-div{
-            width: 88%;
+            width: 94%;
+            @include displaysall();
+            justify-content: center;
             h3{
                 font-size: $fonth2;
                 padding-right: 4rem;
@@ -616,10 +621,12 @@ span.swiper-pagination-total {
         @include displaysall();
         flex-direction: row;
         justify-content: space-around;
+        width: 95%;
         .box-blog{
             flex-basis: 30%;
             border-left: 1px solid rgba(197, 197, 197, 0.671);
             padding: 2rem;
+            margin-top: 2rem;
             div{
                 overflow: hidden;
                 img{
@@ -819,3 +826,4 @@ span.swiper-pagination-total {
         }
     }
 }
+

@@ -1,0 +1,48 @@
+.veblog-div-archive {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.veblog-div-archive .title-archive {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+}
+.veblog-div-archive .title-archive h3 {
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+#navItem-blog {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  text-decoration: none;
+  list-style: none;
+  font-weight: 800;
+  justify-content: space-around;
+  padding-bottom: 8px;
+  width: 100%;
+  font-size: 16px;
+  color: #000;
+}
+
+.header-archive {
+  border-bottom: 1px solid rgba(129, 129, 129, 0.521);
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  height: auto;
+  width: 95%;
+  z-index: 999;
+  flex-wrap: wrap;
+  position: absolute;
+  padding: 1rem;
+}/*# sourceMappingURL=archive.css.map */

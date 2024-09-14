@@ -1,0 +1,47 @@
+@mixin displaysall{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+@mixin styleList{
+    text-decoration: none;
+    list-style: none;
+    font-weight: 800;
+}
+$font-li:16px;
+.veblog-div-archive{
+    width: 90%;
+    @include displaysall();
+    justify-content: center;
+        .title-archive{
+        @include displaysall();
+        justify-content: center;
+        flex-direction: column;
+        h3{
+            font-size: 35px;
+            font-weight: bolder;
+        }
+    }
+}
+#navItem-blog{
+    @include displaysall();
+    flex-direction: row;
+    @include styleList();
+    justify-content: space-around;
+    padding-bottom: 8px;
+    width: 100%;
+    font-size: $font-li;
+    color: #000;
+}
+.header-archive{
+    border-bottom: 1px solid rgba(129, 129, 129, 0.521);
+    @include displaysall();
+    flex-direction: row;
+    justify-content: space-around;
+    height: auto;
+    width: 95%;
+    z-index: 999;
+    flex-wrap: wrap;
+    position: absolute;
+    padding: 1rem;
+}
