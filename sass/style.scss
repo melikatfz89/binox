@@ -11,6 +11,7 @@ html{
 }
 @import 'responsive.scss';
 @import 'archive.scss';
+@import 'singlePost.scss';
 body{
     margin: 0 auto;
     direction: rtl;
@@ -20,7 +21,7 @@ html{
 }
 img{
     width: 100%;
-    height: auoto;
+    height: auto;
 }
 
 p{

@@ -1,21 +1,21 @@
 
+function scrollBorder(){
+    window.scrollTo(0,0);
+}
 
 
-// slider
-const swiper = new Swiper('.swiper', {
-    loop:true,
-    autoplay:true,
-    navigation:{
-    nextEl:'.swiper-button-next',
-    prevEl:'.swiper-button-prev',
-    },
-    pagination:{
-        el:'.swiper-pagination',
-        type:'fraction',
-        clickable:true
-    },
-    // mousewheel: true,
-    speed:3200,
+window.addEventListener('scroll', function() {
+    // height page
+    const scrollHeight = document.documentElement.scrollHeight - window.innerHeight;
+
+    // scrolling cont
+    const scrollTop = window.scrollY;
+     
+    // Calculate the angle relative to the scroll rate
+    const angle = (scrollTop / scrollHeight) * 360;
+ 
+    // Change conic-gradient based on angle
+    document.querySelector('.background-btnscroll').style.background = `conic-gradient(#8DCF9B 0deg, #8DCF9B ${angle}deg, transparent ${angle}deg)`;
 });
 
 // scroll-threesectiongreen
@@ -40,6 +40,25 @@ function scrollcolordiv(){
     }
 }
 
+// slider
+const swiper = new Swiper('.swiper', {
+    loop:true,
+    autoplay:true,
+    navigation:{
+    nextEl:'.swiper-button-next',
+    prevEl:'.swiper-button-prev',
+    },
+    pagination:{
+        el:'.swiper-pagination',
+        type:'fraction',
+        clickable:true
+    },
+    // mousewheel: true,
+    speed:3200,
+});
+
+
+
 // counter
 jQuery(document).ready(function ($){
     $('.counter').counterUp({
@@ -47,21 +66,3 @@ jQuery(document).ready(function ($){
        time: 3000
        });
   });
-function scrollBorder(){
-    window.scrollTo(0,0);
-}
-
-
-window.addEventListener('scroll', function() {
-    // height page
-    const scrollHeight = document.documentElement.scrollHeight - window.innerHeight;
-
-    // scrolling cont
-    const scrollTop = window.scrollY;
-     
-    // Calculate the angle relative to the scroll rate
-    const angle = (scrollTop / scrollHeight) * 360;
- 
-    // Change conic-gradient based on angle
-    document.querySelector('.background-btnscroll').style.background = `conic-gradient(#8DCF9B 0deg, #8DCF9B ${angle}deg, transparent ${angle}deg)`;
-});

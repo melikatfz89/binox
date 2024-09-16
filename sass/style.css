@@ -473,13 +473,84 @@ body {
   direction: rtl;
 }
 
+.meta-info {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-right: 9rem;
+}
+.meta-info .meta-post {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-right: 1rem;
+  flex-basis: 18%;
+  border-left: 1px solid rgba(128, 128, 128, 0.507);
+}
+.meta-info .meta-post span i {
+  color: #8DCF9B;
+  font-size: 2rem;
+  margin-left: 0.8rem;
+}
+
+.div-index-image {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1.5rem 0;
+}
+.div-index-image .index-image {
+  width: 82%;
+}
+
+.firstSection-singlepost {
+  padding: 0 7rem;
+}
+
+.description {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0 7rem;
+}
+.description .text-description {
+  width: 80%;
+}
+.description .info-share {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-right: 1px solid rgba(128, 128, 128, 0.219);
+  padding: 0.5rem;
+}
+.description .info-share .share {
+  border-top: 1px solid rgba(128, 128, 128, 0.219);
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 5rem;
+}
+.description .info-share .info {
+  padding: 0.5rem;
+}
+
+body {
+  margin: 0 auto;
+  direction: rtl;
+}
+
 html {
   scroll-behavior: smooth !important;
 }
 
 img {
   width: 100%;
-  height: auoto;
+  height: auto;
 }
 
 p {
