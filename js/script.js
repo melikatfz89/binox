@@ -22,16 +22,29 @@ window.addEventListener('scroll', function() {
 let secOne=document.getElementById("first-scroll");
 let secTwo=document.getElementById("second-scroll");
 let secThree=document.getElementById("third-scroll");
+let headerElem=document.querySelector('.box-header');
+let navElem=document.querySelector('.navItem')
 function scrollcolordiv(){
     let sectionOne=document.documentElement.scrollTop;
-    if (sectionOne>180 && sectionOne<360){
+    if (sectionOne>0&& sectionOne<360){
         secOne.classList.add("backSection");
+        headerElem.style.position='sticky';
+        headerElem.style.top='0';
+        headerElem.style.backgroundColor='whitesmoke';
+        navElem.style.color='black';
+
     }
     else if (sectionOne>360 && sectionOne<430){
         secTwo.classList.add("backSection2");
     }
     else if(sectionOne>430 && sectionOne<500){
         secThree.classList.add("backSection3");
+    }
+    else if (sectionOne<50){
+        headerElem.style.position='';
+        headerElem.style.top='';
+        headerElem.style.backgroundColor='';
+        navElem.style.color='';
     }
     else{
         secOne.style.position=""

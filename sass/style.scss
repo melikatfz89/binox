@@ -86,6 +86,7 @@ $green-back:#8DCF9B;
 .container{
     position: relative;
     display: flex;
+    margin-top: -100px;
     .black-frame-slider{
         position: absolute;
         @include displaysall();
@@ -106,7 +107,7 @@ $green-back:#8DCF9B;
         z-index: 999;
         p{
             width: 50%;
-            padding-top: 2rem;
+            padding-top: 3rem;
         }
         .btn-darkFrame{
             border: .15rem solid rgb(255, 255, 255);
@@ -153,6 +154,10 @@ $green-back:#8DCF9B;
     color: $iconMenu; 
     .navItems{
         padding: 0 2rem;
+        a{
+            color: #000;
+            text-decoration: none;
+        }
     }
   }
 .box-header{
@@ -161,6 +166,7 @@ $green-back:#8DCF9B;
     background-color: white;
     flex-wrap: wrap;
     border-bottom: 1px solid rgb(128, 128, 128);
+    z-index: 3000;
 }
 
 .header{
@@ -172,7 +178,7 @@ $green-back:#8DCF9B;
     width: 95%;
     z-index: 999;
     flex-wrap: wrap;
-    position: absolute;
+    // position: absolute;
 }
 .headerBtn{
     @include btnStyle();
@@ -716,6 +722,8 @@ span.swiper-pagination-total {
         flex-direction: row;
         justify-content: space-around;
         position: relative;
+        bottom: 0;
+        width: 100%;
         .footer-logo{
             width: 8rem;
             padding: 2rem;

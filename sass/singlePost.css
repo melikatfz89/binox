@@ -1,70 +1,127 @@
-body {
-  margin: 0 auto;
-  direction: rtl;
+.title-singlepost {
+  margin-right: 19rem !important;
 }
 
-.meta-info {
+.info {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   flex-direction: row;
-  margin-right: 9rem;
+  justify-content: start;
+  align-items: center;
+  margin-right: 20rem;
 }
-.meta-info .meta-post {
+.info .box-info {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   flex-direction: row;
-  margin-right: 1rem;
-  flex-basis: 18%;
-  border-left: 1px solid rgba(128, 128, 128, 0.507);
+  width: 8%;
+  height: 3rem;
+  justify-content: space-between;
+  margin-left: 2rem;
 }
-.meta-info .meta-post span i {
+.info .box-info i {
   color: #8DCF9B;
-  font-size: 2rem;
-  margin-left: 0.8rem;
+  font-size: 1.5rem;
+  background-color: rgba(141, 207, 155, 0.4431372549);
+  padding: 0.5rem;
+  border-radius: 2rem;
+}
+.info .box-info .text-info {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+}
+.info .box-info .text-info .title-info {
+  font-size: 0.7rem;
 }
 
-.div-index-image {
+.special-image {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 1.5rem 0;
 }
-.div-index-image .index-image {
-  width: 82%;
-}
-
-.firstSection-singlepost {
-  padding: 0 7rem;
+.special-image img {
+  width: 68%;
+  margin: 2rem 0;
 }
 
 .description {
+  color: rgb(170, 170, 170);
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  padding: 0 7rem;
-}
-.description .text-description {
-  width: 80%;
-}
-.description .info-share {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  border-right: 1px solid rgba(128, 128, 128, 0.219);
-  padding: 0.5rem;
-}
-.description .info-share .share {
-  border-top: 1px solid rgba(128, 128, 128, 0.219);
-  padding: 0.5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   align-items: center;
-  height: 5rem;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
 }
-.description .info-share .info {
-  padding: 0.5rem;
+.description p {
+  width: 68%;
+}
+
+.quote-text {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+.quote-text .author-text {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+.quote-text .author-text h5 {
+  font-size: 2rem;
+  width: 55rem;
+}
+.quote-text img {
+  width: 5%;
+  margin-left: 2rem;
+}
+
+.image-text {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  color: rgb(170, 170, 170);
+  margin: 2rem 0;
+}
+.image-text img {
+  width: 32%;
+  margin-left: 2rem;
+}
+.image-text p {
+  width: 36%;
+}
+
+.healthy-section {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+.healthy-section p {
+  width: 68%;
+  margin-top: 0.5rem !important;
+  margin-right: 20rem !important;
+}
+.healthy-section h1 {
+  margin-top: 0.5rem !important;
+  margin-right: 20rem !important;
+}
+.healthy-section .list-healthy {
+  color: rgb(170, 170, 170);
+  margin-right: 20rem !important;
 }/*# sourceMappingURL=singlePost.css.map */

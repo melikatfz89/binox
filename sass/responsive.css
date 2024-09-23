@@ -114,6 +114,22 @@
   .box-blog {
     flex-basis: 100% !important;
   }
+  .firstSection-singlepost {
+    padding: 0 !important;
+    margin-top: 7rem !important;
+  }
+  .meta-info {
+    flex-direction: column !important;
+    margin-right: 0 !important;
+    justify-content: space-between !important;
+  }
+  .description {
+    flex-direction: column !important;
+    padding: 0 !important;
+  }
+  .description .text-description {
+    width: 94% !important;
+  }
 }
 @media screen and (min-width: 426px) and (max-width: 767px) {
   h1 {
