@@ -130,6 +130,30 @@
   .description .text-description {
     width: 94% !important;
   }
+  .info {
+    margin-right: 1rem !important;
+    justify-content: space-around !important;
+  }
+  .title-singlepost {
+    margin-right: 0.5rem !important;
+    width: 95% !important;
+  }
+  .image-text p {
+    width: 68% !important;
+  }
+  .healthy-section p {
+    width: 95% !important;
+    margin-right: 0.5rem !important;
+  }
+  .healthy-section {
+    margin-right: 0.5rem !important;
+  }
+  .quote-text {
+    flex-direction: column !important;
+  }
+  .quote-text img {
+    width: 30% !important;
+  }
 }
 @media screen and (min-width: 426px) and (max-width: 767px) {
   h1 {
@@ -344,8 +368,6 @@
 @media screen and (min-width: 1200px) and (max-width: 2559px) {
   h1 {
     font-size: 4rem !important;
-    margin-top: 12rem !important;
-    margin-right: 9rem !important;
   }
   p {
     font-size: 1rem !important;

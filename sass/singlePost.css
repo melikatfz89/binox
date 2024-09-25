@@ -1,5 +1,6 @@
 .title-singlepost {
-  margin-right: 19rem !important;
+  text-align: center;
+  margin-left: 12rem;
 }
 
 .info {
@@ -17,7 +18,7 @@
   flex-wrap: wrap;
   flex-direction: row;
   width: 8%;
-  height: 3rem;
+  height: auto;
   justify-content: space-between;
   margin-left: 2rem;
 }
@@ -71,16 +72,12 @@
   justify-content: center;
 }
 .quote-text .author-text {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: center;
-  align-items: start;
+  width: 68%;
 }
 .quote-text .author-text h5 {
   font-size: 2rem;
-  width: 55rem;
+  width: 95%;
+  text-align: justify;
 }
 .quote-text img {
   width: 5%;
@@ -111,17 +108,11 @@
   flex-direction: column;
   justify-content: start;
   align-items: start;
+  margin-right: 18rem;
 }
 .healthy-section p {
   width: 68%;
-  margin-top: 0.5rem !important;
-  margin-right: 20rem !important;
-}
-.healthy-section h1 {
-  margin-top: 0.5rem !important;
-  margin-right: 20rem !important;
 }
 .healthy-section .list-healthy {
   color: rgb(170, 170, 170);
-  margin-right: 20rem !important;
 }/*# sourceMappingURL=singlePost.css.map */

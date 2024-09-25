@@ -11,8 +11,9 @@
 }
 $font-li:16px;
 $green-back:#8DCF9B;
-.title-singlepost{
-    margin-right: 19rem !important;
+.title-singlepost {
+    text-align: center;
+    margin-left: 12rem;
 }
 .info{
     @include displaysall();
@@ -24,7 +25,7 @@ $green-back:#8DCF9B;
         @include displaysall();
         flex-direction: row;
         width: 8%;
-        height: 3rem;
+        height: auto;
         justify-content: space-between;
         margin-left: 2rem;
         i{
@@ -67,13 +68,14 @@ $green-back:#8DCF9B;
     flex-direction:row;
     justify-content: center;
     .author-text{
-        @include displaysall();
-        flex-direction: column;
-        justify-content:center ;
-        align-items: start;
+        // @include displaysall();
+        // flex-direction: column;
+        // justify-content:center ;
+        width: 68%;
         h5{
             font-size: 2rem;
-            width: 55rem;
+            width: 95%;
+            text-align: justify;
         }
     }
     img{
@@ -100,18 +102,19 @@ $green-back:#8DCF9B;
     flex-direction: column;
     justify-content: start;
     align-items: start;
+    margin-right: 18rem;
     p{
         width: 68%;
-        margin-top: 0.5rem !important;
-         margin-right: 20rem !important;
+        // margin-top: 0.5rem !important;
+        //  margin-right: 20rem !important;
     }
     h1{
-         margin-top: 0.5rem !important;
-         margin-right: 20rem !important;
+        //  margin-top: 0.5rem !important;
+        //  margin-right: 20rem !important;
     }
     .list-healthy{
         color:rgb(170, 170, 170);
-        margin-right: 20rem !important;
+        // margin-right: 20rem !important;
     }
 }
 
