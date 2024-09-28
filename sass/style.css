@@ -376,6 +376,12 @@ html {
   .btnCall-footer {
     width: 47.9% !important;
   }
+  .menu-div {
+    display: none !important;
+  }
+  .box-menu {
+    display: none !important;
+  }
 }
 @media screen and (min-width: 1200px) and (max-width: 2559px) {
   h1 {
@@ -417,6 +423,12 @@ html {
   .box-text-specialization {
     flex-basis: 26% !important;
   }
+  .menu-div {
+    display: none !important;
+  }
+  .box-menu {
+    display: none !important;
+  }
 }
 @media screen and (min-width: 2560px) {
   h1 {
@@ -455,6 +467,12 @@ html {
   .green-time:before {
     right: 33.8rem !important;
     top: 2.4rem !important;
+  }
+  .menu-div {
+    display: none !important;
+  }
+  .box-menu {
+    display: none !important;
   }
 }
 .veblog-div-archive {
@@ -655,6 +673,66 @@ div {
   box-sizing: border-box !important;
 }
 
+.menu-div {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.open-close {
+  height: 2rem;
+  width: 2rem;
+  background: none;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
+.open-close i {
+  font-size: 1.8rem;
+}
+
+.open-close:hover {
+  cursor: pointer;
+}
+
+.box-menu {
+  display: none;
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  box-shadow: 1px 1px 5px rgb(201, 201, 201);
+  /* padding: 10px; */
+  position: absolute;
+  top: 3.5rem;
+}
+
+.ul-boxMenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0;
+}
+
+.li-boxMenu {
+  flex-basis: 20%;
+  border-bottom: 1px solid white;
+  text-align: center;
+  list-style: none;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 0.5rem;
+  border-bottom: 1px solid rgba(177, 177, 177, 0.226);
+}
+
+.classlistOne {
+  display: block;
+}
+
 .container {
   position: relative;
   display: flex;
@@ -737,7 +815,7 @@ div {
   padding: 0 2rem;
 }
 .navItem .navItems a {
-  color: #000;
+  color: #8DCF9B;
   text-decoration: none;
 }
 
@@ -748,6 +826,7 @@ div {
   flex-wrap: wrap;
   border-bottom: 1px solid rgb(128, 128, 128);
   z-index: 3000;
+  box-sizing: border-box;
 }
 
 .header {
@@ -761,6 +840,7 @@ div {
   width: 95%;
   z-index: 999;
   flex-wrap: wrap;
+  box-sizing: border-box;
 }
 
 .headerBtn {
@@ -1459,10 +1539,10 @@ span.swiper-pagination-total {
 .background-btnscroll {
   background: conic-gradient(#8DCF9B 2deg, transparent 2deg);
   position: fixed;
-  width: 3.3rem;
-  height: 3.3rem;
-  right: 0.9rem;
-  bottom: 0.9rem;
+  width: 3.5rem;
+  height: 3.5rem;
+  right: 0.78rem;
+  bottom: 0.78rem;
   border-radius: 5rem;
   display: flex;
   align-items: center;

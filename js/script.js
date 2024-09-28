@@ -30,7 +30,7 @@ function scrollcolordiv(){
         secOne.classList.add("backSection");
         headerElem.style.position='sticky';
         headerElem.style.top='0';
-        headerElem.style.backgroundColor='whitesmoke';
+        headerElem.style.backgroundColor='#beecc8';
         navElem.style.color='black';
 
     }
@@ -51,6 +51,13 @@ function scrollcolordiv(){
         secTwo.style.position=""
         secThree.style.position=""   
     }
+}
+const boxmenuElem=document.querySelector('.open-close')
+const divBox=document.querySelector('.box-menu')
+const flagdiv=true
+
+function showboxMenu(){
+    divBox.classList.toggle('classlistOne');
 }
 
 // slider

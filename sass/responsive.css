@@ -364,6 +364,12 @@
   .btnCall-footer {
     width: 47.9% !important;
   }
+  .menu-div {
+    display: none !important;
+  }
+  .box-menu {
+    display: none !important;
+  }
 }
 @media screen and (min-width: 1200px) and (max-width: 2559px) {
   h1 {
@@ -405,6 +411,12 @@
   .box-text-specialization {
     flex-basis: 26% !important;
   }
+  .menu-div {
+    display: none !important;
+  }
+  .box-menu {
+    display: none !important;
+  }
 }
 @media screen and (min-width: 2560px) {
   h1 {
@@ -443,5 +455,11 @@
   .green-time:before {
     right: 33.8rem !important;
     top: 2.4rem !important;
+  }
+  .menu-div {
+    display: none !important;
+  }
+  .box-menu {
+    display: none !important;
   }
 }/*# sourceMappingURL=responsive.css.map */

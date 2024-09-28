@@ -35,6 +35,7 @@ p{
 h1, h2, h3,h4, p, span, li, a, button, u, table, div, input{
     font-family: "pelak";
 }
+
 div{
     box-sizing: border-box !important;
 }
@@ -50,6 +51,7 @@ $iconMenu:#ffff;
 $lightBlue:#F1F6F6;
 $darkblue:#BFCED9;
 $green-back:#8DCF9B;
+
 
 @mixin displaysall{
     display: flex;
@@ -83,6 +85,62 @@ $green-back:#8DCF9B;
     background-repeat: no-repeat;
     background-position: center;
 }
+
+//منو-موبایل
+.menu-div{
+    width: 10%;
+    @include displaysall();
+    flex-direction: row;
+    justify-content: center;
+    padding: 1rem;
+}
+.open-close{
+   height: 2rem;
+   width: 2rem;
+   background:none;
+   color: rgb(255, 255, 255);
+   border: none;
+   border-radius: 0.5rem;
+   font-size: 1rem;
+   i{
+    font-size: 1.8rem;
+   }
+}
+.open-close:hover{
+    cursor: pointer;
+}
+.box-menu{
+    display: none;
+    width: 100%;
+    height: auto;
+    background-color:#fff;
+    box-shadow: 1px 1px 5px rgb(201, 201, 201);
+    /* padding: 10px; */
+    position: absolute;
+    top: 3.5rem;
+}
+.ul-boxMenu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0;
+    
+}
+.li-boxMenu{
+    flex-basis: 20%;
+    border-bottom: 1px solid white;
+    text-align: center;
+    list-style: none;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-bottom: 1px solid rgba(177, 177, 177, 0.226);
+}
+.classlistOne{
+    display: block;
+}
+//منو-موبایل
+
 .container{
     position: relative;
     display: flex;
@@ -155,7 +213,7 @@ $green-back:#8DCF9B;
     .navItems{
         padding: 0 2rem;
         a{
-            color: #000;
+            color: $green-back;
             text-decoration: none;
         }
     }
@@ -167,6 +225,7 @@ $green-back:#8DCF9B;
     flex-wrap: wrap;
     border-bottom: 1px solid rgb(128, 128, 128);
     z-index: 3000;
+    box-sizing: border-box;
 }
 
 .header{
@@ -179,6 +238,7 @@ $green-back:#8DCF9B;
     z-index: 999;
     flex-wrap: wrap;
     // position: absolute;
+    box-sizing: border-box;
 }
 .headerBtn{
     @include btnStyle();
@@ -812,10 +872,10 @@ span.swiper-pagination-total {
 .background-btnscroll{
     background: conic-gradient(#8DCF9B 2deg, transparent 2deg);
     position: fixed;
-    width: 3.3rem;
-    height: 3.3rem;
-    right: 0.9rem;
-    bottom:0.9rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    right: 0.78rem;
+    bottom:0.78rem;
     border-radius: 5rem;
     @include displaysall();
     justify-content: center;
