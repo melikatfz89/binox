@@ -147,12 +147,16 @@
   }
   .healthy-section {
     margin-right: 0.5rem !important;
+    padding: 2rem !important;
   }
   .quote-text {
     flex-direction: column !important;
   }
   .quote-text img {
     width: 30% !important;
+  }
+  .div-form div {
+    margin: 0 !important;
   }
 }
 @media screen and (min-width: 426px) and (max-width: 767px) {
@@ -246,6 +250,9 @@
   .box-blog {
     flex-basis: 100% !important;
   }
+  .div-form div {
+    margin: 0 !important;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
   h1 {
@@ -322,6 +329,12 @@
   .box-blog {
     flex-basis: 100% !important;
   }
+  .healthy-section {
+    margin-right: 6rem !important;
+  }
+  .div-form div {
+    margin: 0 !important;
+  }
 }
 @media screen and (min-width: 992px) and (max-width: 1199px) {
   h1 {
@@ -370,6 +383,15 @@
   .box-menu {
     display: none !important;
   }
+  .div-form div {
+    margin: 0 !important;
+  }
+  .div-form div {
+    margin: 0 !important;
+  }
+  .healthy-section {
+    margin-right: 7rem !important;
+  }
 }
 @media screen and (min-width: 1200px) and (max-width: 2559px) {
   h1 {
@@ -416,6 +438,15 @@
   }
   .box-menu {
     display: none !important;
+  }
+  .div-form div {
+    margin: 0 !important;
+  }
+  .healthy-section {
+    margin-right: 13rem !important;
+  }
+  .div-form div {
+    margin: 4rem 14rem !important;
   }
 }
 @media screen and (min-width: 2560px) {

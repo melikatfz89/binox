@@ -148,12 +148,16 @@ section.tenth-section {
 }
 .healthy-section {
   margin-right: 0.5rem !important;
+  padding: 2rem !important;
 }
 .quote-text{
   flex-direction: column !important;
 }
 .quote-text img {
    width: 30% !important;
+}
+.div-form div{
+  margin: 0 !important;
 }
 }
 
@@ -250,6 +254,9 @@ section.tenth-section {
   .box-blog{
     flex-basis: 100% !important;
   }
+  .div-form div{
+    margin: 0 !important;
+  }
      }
 
 @media screen and (min-width:768px) and (max-width:991px){
@@ -327,6 +334,12 @@ section.tenth-section {
 .box-blog{
   flex-basis: 100% !important;
 }
+.healthy-section{
+  margin-right: 6rem !important;
+}
+.div-form div{
+  margin: 0 !important;
+}
 }
 
 @media screen and (min-width:992px) and (max-width:1199px){
@@ -376,6 +389,15 @@ section.tenth-section {
   .box-menu{
     display: none !important;
   }
+  .div-form div{
+    margin: 0 !important;
+  }
+  .div-form div{
+    margin: 0 !important;
+  }
+  .healthy-section {
+    margin-right: 7rem !important;
+}
 }
 @media screen and (min-width:1200px) and (max-width:2559px){
    h1{
@@ -424,6 +446,15 @@ section.tenth-section {
 }
 .box-menu{
  display: none !important;
+}
+.div-form div{
+  margin: 0 !important;
+}
+.healthy-section {
+  margin-right: 13rem !important;
+}
+.div-form div {
+  margin: 4rem 14rem !important;
 }
 // .tenth-section .green-time:before {
 //   right: 16.2rem !important;

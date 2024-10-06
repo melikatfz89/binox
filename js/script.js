@@ -86,3 +86,15 @@ jQuery(document).ready(function ($){
        time: 3000
        });
   });
+
+
+
+
+
+let tocBtn=document.querySelector('.ez-toc-btn')
+let ulToc=document.querySelector('.ez-toc-list')
+
+tocBtn.addEventListener('click', closeBtn)
+function closeBtn(){
+  ulToc.style.display='none'
+}

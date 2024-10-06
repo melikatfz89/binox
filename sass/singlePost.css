@@ -115,4 +115,49 @@
 }
 .healthy-section .list-healthy {
   color: rgb(170, 170, 170);
+}
+
+.div-form {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2rem 0;
+}
+.div-form div {
+  width: 82%;
+  margin: 4rem 20rem;
+}
+.div-form div h2 {
+  width: 50%;
+}
+.div-form div .form-text {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: start;
+}
+.div-form div .form-text #message {
+  flex-basis: 90%;
+  height: 90px;
+  margin-top: 1rem;
+}
+.div-form div .form-text #name {
+  flex-basis: 42%;
+  height: 50px;
+  margin-top: 1rem;
+}
+.div-form div .form-text #family {
+  flex-basis: 42%;
+  height: 50px;
+  margin-top: 1rem;
+}
+.div-form div .form-text #submit-btn {
+  flex-basis: 22%;
+  height: 40px;
+  background-color: #8DCF9B;
+  margin-top: 1rem;
 }/*# sourceMappingURL=singlePost.css.map */
