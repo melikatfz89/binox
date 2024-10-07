@@ -170,6 +170,9 @@ html {
   .div-form div {
     margin: 0 !important;
   }
+  .title-archive h3 {
+    font-size: 29px !important;
+  }
 }
 @media screen and (min-width: 426px) and (max-width: 767px) {
   h1 {
@@ -454,11 +457,8 @@ html {
   .div-form div {
     margin: 0 !important;
   }
-  .healthy-section {
-    margin-right: 13rem !important;
-  }
   .div-form div {
-    margin: 4rem 14rem !important;
+    margin: 4rem 18rem !important;
   }
 }
 @media screen and (min-width: 2560px) {
@@ -702,12 +702,12 @@ html {
   margin-top: 1rem;
 }
 .div-form div .form-text #name {
-  flex-basis: 42%;
+  flex-basis: 44%;
   height: 50px;
   margin-top: 1rem;
 }
 .div-form div .form-text #family {
-  flex-basis: 42%;
+  flex-basis: 44%;
   height: 50px;
   margin-top: 1rem;
 }
@@ -1306,8 +1306,7 @@ span.swiper-pagination-total {
   flex-direction: row;
   justify-content: center;
   height: 100%;
-  align-items: center;
-  padding: 1rem;
+  padding: 6rem 0;
 }
 
 .swiper-button-next, .swiper-button-prev {
@@ -1569,6 +1568,7 @@ span.swiper-pagination-total {
 }
 .box-footer .box-text-footer .links-pages div {
   margin-top: 1rem;
+  padding: 2rem 0;
 }
 .box-footer .box-text-footer .links-pages div .div-form {
   display: flex;
@@ -1592,7 +1592,8 @@ span.swiper-pagination-total {
   flex-direction: column;
   justify-content: space-between;
   align-items: start;
-  height: 25vh;
+  height: auto;
+  padding: 2rem 0;
 }
 .box-footer .box-text-footer .links-pages ul li {
   color: rgba(189, 189, 189, 0.603);

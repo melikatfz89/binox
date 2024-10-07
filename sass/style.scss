@@ -592,8 +592,7 @@ span.swiper-pagination-total {
         flex-direction: row;
         justify-content: center;
         height: 100%;
-        align-items: center;
-        padding: 1rem;
+        padding: 6rem 0;
     }
     // .swiper-slide{
     //     width: 65%;
@@ -826,6 +825,7 @@ span.swiper-pagination-total {
              align-items: start;
              div{
                 margin-top: 1rem;
+                padding: 2rem 0;
                 .div-form{
                     @include displaysall();
                     flex-direction: row;
@@ -846,7 +846,8 @@ span.swiper-pagination-total {
                 flex-direction: column;
                 justify-content: space-between;
                 align-items: start;
-                height: 25vh;
+                height: auto;
+                padding: 2rem 0;
                 li{
                     color:rgba(189, 189, 189, 0.603);
                     font-size: $fontP;

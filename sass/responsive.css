@@ -158,6 +158,9 @@
   .div-form div {
     margin: 0 !important;
   }
+  .title-archive h3 {
+    font-size: 29px !important;
+  }
 }
 @media screen and (min-width: 426px) and (max-width: 767px) {
   h1 {
@@ -442,11 +445,8 @@
   .div-form div {
     margin: 0 !important;
   }
-  .healthy-section {
-    margin-right: 13rem !important;
-  }
   .div-form div {
-    margin: 4rem 14rem !important;
+    margin: 4rem 18rem !important;
   }
 }
 @media screen and (min-width: 2560px) {

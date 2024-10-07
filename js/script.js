@@ -77,8 +77,6 @@ const swiper = new Swiper('.swiper', {
     speed:3200,
 });
 
-
-
 // counter
 jQuery(document).ready(function ($){
     $('.counter').counterUp({
@@ -86,15 +84,3 @@ jQuery(document).ready(function ($){
        time: 3000
        });
   });
-
-
-
-
-
-let tocBtn=document.querySelector('.ez-toc-btn')
-let ulToc=document.querySelector('.ez-toc-list')
-
-tocBtn.addEventListener('click', closeBtn)
-function closeBtn(){
-  ulToc.style.display='none'
-}
