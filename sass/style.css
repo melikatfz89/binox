@@ -173,6 +173,9 @@ html {
   .title-archive h3 {
     font-size: 29px !important;
   }
+  .span-circle, .circle, .consultant-btn {
+    display: none;
+  }
 }
 @media screen and (min-width: 426px) and (max-width: 767px) {
   h1 {
@@ -268,6 +271,9 @@ html {
   .div-form div {
     margin: 0 !important;
   }
+  .span-circle, .circle, .consultant-btn {
+    display: none;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
   h1 {
@@ -349,6 +355,9 @@ html {
   }
   .div-form div {
     margin: 0 !important;
+  }
+  .span-circle, .circle, .consultant-btn {
+    display: none;
   }
 }
 @media screen and (min-width: 992px) and (max-width: 1199px) {
@@ -1643,4 +1652,33 @@ span.swiper-pagination-total {
 .background-btnscroll .btn-scroll i {
   color: #fff;
   font-size: 1.5rem;
+}
+
+.circle {
+  pointer-events: none;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: 1px solid #8DCF9B;
+  position: absolute;
+  z-index: 3000;
+}
+
+.span-circle {
+  pointer-events: none;
+  width: 10px;
+  height: 10px;
+  background-color: #8DCF9B;
+  border-radius: 50%;
+  position: absolute;
+  top: 20px;
+  z-index: 3000;
+}
+
+.classCircle {
+  transition: all 300ms linear;
+}
+
+.classCirclespan {
+  transition: all 400ms linear;
 }/*# sourceMappingURL=style.css.map */

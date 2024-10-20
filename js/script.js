@@ -30,7 +30,7 @@ function scrollcolordiv(){
         secOne.classList.add("backSection");
         headerElem.style.position='sticky';
         headerElem.style.top='0';
-        headerElem.style.backgroundColor='#beecc8';
+        headerElem.style.backgroundColor='#CFD6C1';
         navElem.style.color='black';
 
     }
@@ -59,6 +59,46 @@ const flagdiv=true
 function showboxMenu(){
     divBox.classList.toggle('classlistOne');
 }
+
+//mousemove
+const circleMouse=document.querySelector('.circle')
+const circlespanMouse=document.querySelector('.span-circle')
+
+
+document.addEventListener('mousemove' ,(event)=>{
+    const X=event.clientX+window.scrollX;
+    const Y=event.clientY+window.scrollY;
+
+    circlespanMouse.style.left=(X+20)+ 'px'
+    circlespanMouse.style.top=(Y+20) +'px'
+
+
+    circleMouse.style.left=X+ 'px'
+    circleMouse.style.top=Y +'px'
+
+    circleMouse.classList.add('classCircle')
+    circlespanMouse.classList.add('classCirclespan')
+     
+    //تغییر رنگ المان با تغییر بک گراند روشن و تیره
+    // const backgroundColor=getComputedStyle(document.elementFromPoint(X, Y)).backgroundColor
+    // const rgb=backgroundColor.match(/\d+/g);
+    // if(rgb){
+    //     const [r,g,b]=rgb.map(Number)
+    //     const brightness = (r * 0.299 + g * 0.587 + b * 0.114);
+    //     if(brightness>100){
+    //         circlespanMouse.style.backgroundColor='black'
+    //         circleMouse.style.borderColor ='black'
+    //     }
+    //     else{
+    //         circlespanMouse.style.backgroundColor='white'
+    //         circleMouse.style.borderColor ='white'
+    //     }
+    // }
+    // circleMouse.style.transform=`translate(${X}px,${Y}px)`
+    // circle.style.transform=`translate(${X}px,${Y}px)`
+});
+
+
 
 // slider
 const swiper = new Swiper('.swiper', {

@@ -899,4 +899,29 @@ span.swiper-pagination-total {
         }
     }
 }
+.circle{
+    pointer-events: none;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    border: 1px solid #8DCF9B;
+    position: absolute;
+    z-index: 3000;
+}
+.span-circle{
+    pointer-events: none;
+    width: 10px;
+    height: 10px;
+    background-color: #8DCF9B;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    z-index: 3000;
+}
+.classCircle{
+    transition: all 300ms linear;
+}
+.classCirclespan{
+    transition: all 400ms linear;
+}
 

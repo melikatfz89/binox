@@ -161,6 +161,9 @@
   .title-archive h3 {
     font-size: 29px !important;
   }
+  .span-circle, .circle, .consultant-btn {
+    display: none;
+  }
 }
 @media screen and (min-width: 426px) and (max-width: 767px) {
   h1 {
@@ -256,6 +259,9 @@
   .div-form div {
     margin: 0 !important;
   }
+  .span-circle, .circle, .consultant-btn {
+    display: none;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
   h1 {
@@ -337,6 +343,9 @@
   }
   .div-form div {
     margin: 0 !important;
+  }
+  .span-circle, .circle, .consultant-btn {
+    display: none;
   }
 }
 @media screen and (min-width: 992px) and (max-width: 1199px) {
