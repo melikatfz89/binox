@@ -569,9 +569,11 @@ span.swiper-pagination-total {
                 padding: 1rem;
             }
         }
-        .div-counter{
+        #div-counter{
             @include displaysall();
             flex-direction: row;
+            font-size: 55px;
+            font-weight: bold;
             span{
                 font-size: 55px;
                 font-weight: bold;

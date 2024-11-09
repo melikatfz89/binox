@@ -98,6 +98,16 @@ document.addEventListener('mousemove' ,(event)=>{
     // circle.style.transform=`translate(${X}px,${Y}px)`
 });
 
+// counter
+let divElem=document.getElementById('div-counter');
+let showNumber = 0;
+let x = setInterval(function counter(){
+    divElem.innerHTML=showNumber;
+    showNumber++
+    if(showNumber>=3001){
+        clearInterval(x);
+  }
+},10)
 
 
 // slider
@@ -117,10 +127,4 @@ const swiper = new Swiper('.swiper', {
     speed:3200,
 });
 
-// counter
-jQuery(document).ready(function ($){
-    $('.counter').counterUp({
-       delay: 10,
-       time: 3000
-       });
-  });
+

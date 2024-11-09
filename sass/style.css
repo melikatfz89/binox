@@ -1288,13 +1288,15 @@ span.swiper-pagination-total {
 .third-col-blue .btn-explore u {
   padding: 1rem;
 }
-.third-col-blue .div-counter {
+.third-col-blue #div-counter {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   flex-direction: row;
+  font-size: 55px;
+  font-weight: bold;
 }
-.third-col-blue .div-counter span {
+.third-col-blue #div-counter span {
   font-size: 55px;
   font-weight: bold;
 }
