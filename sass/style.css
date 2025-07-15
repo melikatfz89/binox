@@ -1625,12 +1625,12 @@ span.swiper-pagination-total {
 }
 
 .background-btnscroll {
-  background: conic-gradient(#e63972 2deg, transparent 2deg) !important;
+  background: conic-gradient(#e63972 2deg, transparent 2deg);
   position: fixed;
-  width: 3.5rem;
-  height: 3.5rem;
-  right: 0.78rem;
-  bottom: 0.78rem;
+  width: 4.5rem;
+  height: 4.5rem;
+  right: 0.22rem;
+  bottom: 0.22rem;
   border-radius: 5rem;
   display: flex;
   align-items: center;
