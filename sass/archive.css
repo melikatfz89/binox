@@ -44,4 +44,8 @@
   z-index: 999;
   flex-wrap: wrap;
   padding: 1rem;
+}
+
+.box-blogs h4 a {
+  color: black;
 }/*# sourceMappingURL=archive.css.map */

@@ -563,6 +563,10 @@ html {
   padding: 1rem;
 }
 
+.box-blogs h4 a {
+  color: black;
+}
+
 .title-singlepost {
   text-align: center;
   margin-left: 12rem;
