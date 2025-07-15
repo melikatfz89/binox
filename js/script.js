@@ -78,24 +78,6 @@ document.addEventListener('mousemove' ,(event)=>{
 
     circleMouse.classList.add('classCircle')
     circlespanMouse.classList.add('classCirclespan')
-     
-    //تغییر رنگ المان با تغییر بک گراند روشن و تیره
-    // const backgroundColor=getComputedStyle(document.elementFromPoint(X, Y)).backgroundColor
-    // const rgb=backgroundColor.match(/\d+/g);
-    // if(rgb){
-    //     const [r,g,b]=rgb.map(Number)
-    //     const brightness = (r * 0.299 + g * 0.587 + b * 0.114);
-    //     if(brightness>100){
-    //         circlespanMouse.style.backgroundColor='black'
-    //         circleMouse.style.borderColor ='black'
-    //     }
-    //     else{
-    //         circlespanMouse.style.backgroundColor='white'
-    //         circleMouse.style.borderColor ='white'
-    //     }
-    // }
-    // circleMouse.style.transform=`translate(${X}px,${Y}px)`
-    // circle.style.transform=`translate(${X}px,${Y}px)`
 });
 
 // counter
