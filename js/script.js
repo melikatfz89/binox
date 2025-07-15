@@ -15,7 +15,7 @@ window.addEventListener('scroll', function() {
     const angle = (scrollTop / scrollHeight) * 360;
  
     // Change conic-gradient based on angle
-    document.querySelector('.background-btnscroll').style.background = `conic-gradient(#8DCF9B 0deg, #8DCF9B ${angle}deg, transparent ${angle}deg)`;
+    document.querySelector('.background-btnscroll').style.background = `conic-gradient(#e63972 0deg, #e63972 ${angle}deg, transparent ${angle}deg)`;
 });
 
 // scroll-threesectiongreen
